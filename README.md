@@ -2,8 +2,6 @@
 
 *A technical audit of Proton VPN's free tier performance and security*
 
-![Gloomy Terminal Theme](https://img.shields.io/badge/Theme-Gloomy_Terminal-333333?style=flat-square)
-
 ## Project Overview
 - **Date Conducted**: 4th July 2025
 - **Test Subject**: Proton VPN (Free Tier)
