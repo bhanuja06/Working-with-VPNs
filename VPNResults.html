@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VPN Test Summary - 4th July 2025</title>
+    <style>
+        body {
+            font-family: 'Courier New', monospace;
+            background-color: #121212;
+            color: #a0a0a0;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            border-left: 1px solid #333;
+            border-right: 1px solid #333;
+        }
+        h1, h2, h3 {
+            color: #7a7a7a;
+            border-bottom: 1px dashed #333;
+            padding-bottom: 5px;
+        }
+        h1 {
+            text-align: center;
+            color: #6d6d6d;
+            font-size: 2.2em;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+            border-bottom: 1px solid #333;
+        }
+        th {
+            background-color: #1a1a1a;
+        }
+        .highlight {
+            color: #8a8a8a;
+            font-weight: bold;
+        }
+        .warning {
+            color: #6a6a6a;
+            background-color: #1e1e1e;
+            padding: 10px;
+            border-left: 3px solid #444;
+        }
+        .footer {
+            margin-top: 40px;
+            font-size: 0.8em;
+            text-align: center;
+            color: #555;
+        }
+        .positive {
+            color: #7a9a7a;
+        }
+        .negative {
+            color: #9a7a7a;
+        }
+    </style>
+</head>
+<body>
+    <h1>VPN PERFORMANCE ANALYSIS</h1>
+    <h3>Conducted on: <span class="highlight">4th July 2025</span></h3>
+    
+    <h2>Test Parameters</h2>
+    <ul>
+        <li><span class="highlight">VPN Service:</span> Proton VPN (Free Tier)</li>
+        <li><span class="highlight">Test Location:</span> Netherlands Server</li>
+        <li><span class="highlight">Testing Tools:</span> Ookla SpeedTest, DNSLeakTest</li>
+    </ul>
+    
+    <h2>Speed Test Results</h2>
+    <table>
+        <tr>
+            <th>Metric</th>
+            <th>Without VPN</th>
+            <th>With VPN</th>
+            <th>Difference</th>
+        </tr>
+        <tr>
+            <td>Download (Mbps)</td>
+            <td>30.10</td>
+            <td>21.50</td>
+            <td class="negative">▼ 28.6%</td>
+        </tr>
+        <tr>
+            <td>Upload (Mbps)</td>
+            <td>30.77</td>
+            <td>29.71</td>
+            <td class="negative">▼ 3.4%</td>
+        </tr>
+    </table>
+    
+    <h2>Security Assessment</h2>
+    <div class="positive">
+        <p>✓ DNS Leak Test: <span class="highlight">No leaks detected</span></p>
+        <p>✓ IP Masking: <span class="highlight">Successful</span> (Original IP hidden)</p>
+        <p>✓ Encryption: <span class="highlight">AES-256 confirmed</span></p>
+    </div>
+    
+    <div class="warning">
+        <h3>Notable Limitations</h3>
+        <ul>
+            <li>Significant download speed reduction (28.6%)</li>
+            <li>Limited server selection on free plan</li>
+            <li>10GB monthly data cap</li>
+        </ul>
+    </div>
+    
+    <h2>Work Performed</h2>
+    <ol>
+        <li>Established baseline network speeds without VPN</li>
+        <li>Connected to ProtonVPN Netherlands server</li>
+        <li>Conducted multiple speed tests under both conditions</li>
+        <li>Verified DNS/IP leak protection</li>
+        <li>Analyzed encryption effectiveness</li>
+        <li>Documented all findings</li>
+    </ol>
+    
+    <div class="footer">
+        <p>Report generated from secure terminal | Data sanitized for privacy</p>
+        <p>© 2025 Digital Privacy Audit</p>
+    </div>
+</body>
+</html>
